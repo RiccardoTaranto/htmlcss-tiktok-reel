@@ -32,8 +32,10 @@ video {
 	left: 0;
 	right: 0;
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	/* Inserisci qui sotto le tue regole, se necessario. */
+	display: flex;
+	align-items: center;
+	color: blanchedalmond;
 }
 
 /* Footer */
@@ -45,9 +47,11 @@ footer {
 	bottom: 0;
 	color: #fff;
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
-}
+	/* Inserisci qui sotto le tue regole, se necessario. */
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;}
 
 /* Sidebar */
 .sidebar {
@@ -56,8 +60,7 @@ footer {
 	right: 0;
 	top: 40%;
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	/* Inserisci qui sotto le tue regole, se necessario. */
 }
 
 /* ---------------------
