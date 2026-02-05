@@ -18,8 +18,7 @@ video {
 }
 
 .reel-page {
-	height: 100vh;
-	/* ti incuriosisce? */
+	height: 100vh; /* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -33,7 +32,6 @@ video {
 	color: #fff;
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
-	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -42,7 +40,7 @@ video {
 		border: 1px dashed red;
 		text-align: center;
 		margin: 2rem;
-		
+
 		ul {
 			list-style: none;
 			display: flex;
@@ -53,16 +51,13 @@ video {
 }
 
 /* Footer */
-
 footer {
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	color: #fff;
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
-
 	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
@@ -75,9 +70,6 @@ footer {
 	}
 }
 
-.items_text {
-	font-size: 10px;
-}
 
 /* Sidebar */
 .sidebar {
@@ -90,17 +82,29 @@ footer {
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	gap: 1rem;
 }
 
 .icons {
 	font-size: 24px;
-	color: white;
+	color: #fff;
 	display: block;
 	text-align: center;
 }
+
+.img_icons {
+	width: 36px;
+	object-fit: contain;
+	border-radius: 100%;
+}
+
+.items_text {
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	}
 
 
 
