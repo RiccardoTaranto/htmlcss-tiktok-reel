@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -41,6 +42,14 @@ video {
 		width: 100%;
 		border: 1px dashed red;
 		text-align: center;
+		margin: 2rem;
+		
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			gap: 1rem;
+		}
 	}
 }
 
@@ -70,7 +79,7 @@ footer {
 
 .items_text {
 	font-size: 10px;
-}	
+}
 
 /* Sidebar */
 .sidebar {
@@ -101,4 +110,5 @@ da rimuovere una volta concluso
 	min-height: 50px;
 	border: 2px dashed #fff;
 }
+
 /* --------------------- */
