@@ -33,13 +33,12 @@ video {
 	color: #fff;
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
+	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 
 	.container {
-		background-color: blue;
-		width: 100%;
 		border: 1px dashed red;
 		text-align: center;
 		margin: 2rem;
@@ -64,13 +63,12 @@ footer {
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
 
+	background-color: black;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 
 	.item {
-		background-color: blue;
-		width: 100%;
 		border: 1px dashed red;
 		text-align: center;
 		padding: 0.5rem;
@@ -90,6 +88,20 @@ footer {
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
 }
+
+.icons {
+	font-size: 24px;
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
