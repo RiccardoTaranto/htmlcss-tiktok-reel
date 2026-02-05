@@ -87,6 +87,12 @@ footer {
 	top: 40%;
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
 
 .icons {
