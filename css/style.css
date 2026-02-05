@@ -26,16 +26,21 @@ video {
 
 .reel-header {
 	position: absolute;
-	align-items: center;
-	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
+	color: #fff;
 
 	/* Inserisci qui sotto le tue regole, se necessario. */
 	display: flex;
-	align-items: center;
-	color: blanchedalmond;
+	justify-content: space-evenly;
+
+	.container {
+		background-color: blue;
+		width: 100%;
+		border: 1px dashed red;
+		text-align: center;
+	}
 }
 
 /* Footer */
@@ -50,8 +55,15 @@ footer {
 	/* Inserisci qui sotto le tue regole, se necessario. */
 
 	display: flex;
-	justify-content: space-between;
-	align-items: center;}
+
+	.item {
+		background-color: blue;
+		width: 100%;
+		border: 1px dashed red;
+		text-align: center;
+		padding: 0.5rem;
+	}
+}
 
 /* Sidebar */
 .sidebar {
@@ -82,5 +94,4 @@ da rimuovere una volta concluso
 	min-height: 50px;
 	border: 2px dashed #fff;
 }
-
 /* --------------------- */
